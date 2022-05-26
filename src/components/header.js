@@ -10,12 +10,12 @@ const Header = () => {
             <ul className="list-inline info">
               <li>
                 <a href="#">
-                  <span className="fa fa-phone" /> 1234 - 5678 - 9012
+                  <span className="fa fa-phone" /> 080 (3205) 9543
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="fa fa-envelope" /> support@Construct.com
+                  <span className="fa fa-envelope" /> saeidbabaalian@gmail.com
                 </a>
               </li>
               &nbsp; &nbsp;&nbsp;
@@ -87,7 +87,7 @@ const Header = () => {
                 <i className="fa fa-bars" />
               </button>
               <a className="navbar-brand" href="">
-                <img className="logo" src="images/logo.png" alt="" />
+                <img className="logo" src="images/company-logo.png" alt="" />
               </a>
             </div>
 

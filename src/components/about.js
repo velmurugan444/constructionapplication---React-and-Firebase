@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-lg-offset-1">
               <div className="about_banner">
-                <img src="images/man.png" alt="" />
+                <img src="images/About/about-1.png" alt="" className="logo" />
               </div>
             </div>
           </div>
