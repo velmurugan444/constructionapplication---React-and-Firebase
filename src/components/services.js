@@ -8,7 +8,7 @@ const Services = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="service_item">
-              <img src="images/services/service-1.jpg" alt="Our Services" />
+              <img src="images/services/service-1.JPG" alt="Our Services" />
               <h3>Saitama Prefecture Dismantling</h3>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -23,7 +23,7 @@ const Services = () => {
           </div>
           <div className="col-md-4">
             <div className="service_item">
-              <img src="images/services/service-3.jpg" alt="Our Services" />
+              <img src="images/services/service-3.JPG" alt="Our Services" />
               <h3>Tokyo</h3>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -38,7 +38,7 @@ const Services = () => {
           </div>
           <div className="col-md-4">
             <div className="service_item">
-              <img src="images/services/service-1.jpg" alt="Our Services" />
+              <img src="images/services/service-1.JPG" alt="Our Services" />
               <h3>Prefecture Dismantling</h3>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -56,7 +56,7 @@ const Services = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="service_item">
-              <img src="images/services/service-2.jpg" alt="Our Services" />
+              <img src="images/services/service-2.JPG" alt="Our Services" />
               <h3>Chiba</h3>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -71,7 +71,7 @@ const Services = () => {
           </div>
           <div className="col-md-4">
             <div className="service_item">
-              <img src="images/services/service-1.jpg" alt="Our Services" />
+              <img src="images/services/service-1.JPG" alt="Our Services" />
               <h3>Prefecture Dismantling</h3>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit

@@ -20,7 +20,7 @@ const Whyus = () => {
         <div className="row">
           <div className="col-md-6 col-sm-6">
             <div className="why_us_item">
-              <img src="images/Demolition/wooden-demolition.jpg" />
+              <img src="public/images/Demolition/wooden-demolition.JPG" />
               <h4>Wooden Demolition Work</h4>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
@@ -30,7 +30,7 @@ const Whyus = () => {
           </div>
           <div className="col-md-6 col-sm-6">
             <div className="why_us_item">
-              <img src="images/Demolition/RC-demolition.jpg" />
+              <img src="public/images/Demolition/RC-demolition.JPG" />
               <h4>RC Structure Demolition Work</h4>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit

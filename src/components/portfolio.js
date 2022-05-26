@@ -50,54 +50,54 @@ const Portfolio = () => {
         <div className="grid">
           <div className="grid-sizer" />
           <div className="grid-item grid-item--width2 grid-item--height2 buildings photos interior">
-            <img alt="" src="images/portfolio/portfolio-1.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-1.JPG" />
           </div>
 
           <div className="grid-item buildings interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-2.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-2.JPG" />
           </div>
 
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-3.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-3.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-4.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-4.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-5.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-5.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-6.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-6.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-7.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-7.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/portfolio/portfolio-8.jpg" />
+            <img alt="" src="images/Portfolio/portfolio-8.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
             <img alt="" src="images/services/service-1.jpg" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/services/service-2.jpg" />
+            <img alt="" src="images/services/service-2.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/services/service-3.jpg" />
+            <img alt="" src="images/services/service-3.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/Demolition/RC-demolition.jpg" />
+            <img alt="" src="images/Demolition/RC-demolition.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/Demolition/wooden-demolition.jpg" />
+            <img alt="" src="images/Demolition/wooden-demolition.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/Home/home-1.jpg" />
+            <img alt="" src="images/Home/home-1.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/Home/home-2.jpg" />
+            <img alt="" src="images/Home/home-2.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/Home/home-3.jpg" />
+            <img alt="" src="images/Home/home-3.JPG" />
           </div>
 
           <div className="grid-item videos isolation" style={{ width: "auto" }}>
