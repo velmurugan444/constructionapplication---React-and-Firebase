@@ -76,7 +76,7 @@ const Portfolio = () => {
             <img alt="" src="images/Portfolio/portfolio-8.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
-            <img alt="" src="images/services/service-1.jpg" />
+            <img alt="" src="images/services/service-1.JPG" />
           </div>
           <div className="grid-item interior photos isolation">
             <img alt="" src="images/services/service-2.JPG" />
