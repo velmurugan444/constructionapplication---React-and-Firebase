@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Homesection = () => {
   return (
@@ -10,18 +11,24 @@ const Homesection = () => {
               <img src="images/slider_img.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified Engineers</h3>
-                  <h1>Construction Services</h1>
-                  <h1 className="second_heading">Creative & Professional</h1>
+                  <h3>We are Certified, Demolition Engineers</h3>
+                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h1 className="second_heading">
+                    Wooden & RC Structure Demolition
+                  </h1>
                   <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                    odit aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                    velit,
+                    sakura Kogyo Co., Ltd provides professional demolition
+                    services in the main three prefectures of Japan. our company
+                    is located in Kawaguchi city of Saitama prefecture. so we
+                    provide our services in Tokyo prefecture, Chiba prefecture
+                    and Saitama prefecture.
                   </p>
-                  <a className="btn know_btn">know more</a>
-                  <a className="btn know_btn">view project</a>
+                  <Link to="/about" className="btn know_btn">
+                    About us
+                  </Link>
+                  <Link to="/contact" className="btn know_btn">
+                    Contact us
+                  </Link>
                 </div>
               </div>
             </div>
@@ -29,15 +36,17 @@ const Homesection = () => {
               <img src="images/slider_img2.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified Engineers</h3>
-                  <h1>Construction Services</h1>
-                  <h1 className="second_heading">Creative & Professional</h1>
+                  <h3>We are Certified, Demolition Engineers</h3>
+                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h1 className="second_heading">
+                    Wooden & RC Structure Demolition
+                  </h1>
                   <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                    odit aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                    velit,
+                    sakura Kogyo Co., Ltd provides professional demolition
+                    services in the main three prefectures of Japan. our company
+                    is located in Kawaguchi city of Saitama prefecture. so we
+                    provide our services in Tokyo prefecture, Chiba prefecture
+                    and Saitama prefecture.
                   </p>
                   <a className="btn know_btn">know more</a>
                   <a className="btn know_btn">view project</a>
@@ -48,15 +57,17 @@ const Homesection = () => {
               <img src="images/slider_img3.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified Engineers</h3>
-                  <h1>Construction Services</h1>
-                  <h1 className="second_heading">Creative & Professional</h1>
+                  <h3>We are Certified, Demolition Engineers</h3>
+                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h1 className="second_heading">
+                    {" "}Wooden & RC Structure Demolition
+                  </h1>
                   <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                    odit aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                    velit,
+                    sakura Kogyo Co., Ltd provides professional demolition
+                    services in the main three prefectures of Japan. our company
+                    is located in Kawaguchi city of Saitama prefecture. so we
+                    provide our services in Tokyo prefecture, Chiba prefecture
+                    and Saitama prefecture.
                   </p>
                   <a className="btn know_btn">know more</a>
                   <a className="btn know_btn">view project</a>

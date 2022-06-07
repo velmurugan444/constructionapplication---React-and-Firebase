@@ -10,7 +10,7 @@ const Header = () => {
             <ul className="list-inline info">
               <li>
                 <a href="#">
-                  <span className="fa fa-phone" /> 080 (3205) 9543
+                  <span className="fa fa-phone" /> 080-3205-9543
                 </a>
               </li>
               <li>

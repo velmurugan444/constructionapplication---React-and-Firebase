@@ -12,10 +12,9 @@ const Portfolio = () => {
       <div className="container portfolio_area text-center">
         <h2>Made with love</h2>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-          sit amet, consectetur, adipisci velit,
+          These are some of the projects that we completed successfully. we
+          provide wooden and RC structure demolition services in Saitama, Tokyo
+          and Chiba Prefectures.
         </p>
 
         <div id="filters">
