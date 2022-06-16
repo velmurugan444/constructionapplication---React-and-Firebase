@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import About from "./about";
+import Contactform from "./contactform";
+import Footer from "./footer";
+import Portfolio from "./portfolio";
+import Services from "./services";
 
 const Homesection = () => {
   return (
@@ -96,6 +101,10 @@ const Homesection = () => {
           </a>
         </div>
       </section>
+      <Services />
+      <Portfolio />
+      <About />
+      <Contactform />
     </div>
   );
 };

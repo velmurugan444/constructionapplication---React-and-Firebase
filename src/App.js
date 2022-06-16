@@ -22,11 +22,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homesection />} />
-        <Route path="/home" element={<Homesection />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contactform />} />
       </Routes>
     </div>
   );

@@ -94,19 +94,7 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbar-menu">
               <ul className="nav navbar-nav menu">
                 <li>
-                  <Link to="/home">Home</Link>
-                </li>
-                <li>
-                  <Link to="/about">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/services">Services</Link>
-                </li>
-                <li>
-                  <Link to="/portfolio">Portfolio</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/">Home</Link>
                 </li>
               </ul>
             </div>
