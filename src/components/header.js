@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t, i18n } = useTranslation("common");
   return (
     <div>
       <header>
@@ -22,12 +24,24 @@ const Header = () => {
               <li>
                 <a href="#">
                   <span>
-                    <input type="radio" value="English" />
+                    <input
+                      type="radio"
+                      value="English"
+                      onClick={() => {
+                        i18n.changeLanguage("en");
+                      }}
+                    />
                     &nbsp; English
                   </span>
                   &nbsp; &nbsp;&nbsp;&nbsp;
                   <span>
-                    <input type="radio" value="English" />
+                    <input
+                      type="radio"
+                      value="English"
+                      onClick={() => {
+                        i18n.changeLanguage("jap");
+                      }}
+                    />
                     &nbsp; Japanese
                   </span>
                 </a>
@@ -94,7 +108,9 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbar-menu">
               <ul className="nav navbar-nav menu">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">
+                    {t(`home.title`)}
+                  </Link>
                 </li>
               </ul>
             </div>

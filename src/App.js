@@ -1,12 +1,8 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useEffect, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import About from "./components/about";
-import Contactform from "./components/contactform";
 import Header from "./components/header";
 import Homesection from "./components/homesection";
-import Portfolio from "./components/portfolio";
 import Preloader from "./components/preloader";
-import Services from "./components/services";
 
 function App() {
   const [isLoading, setisLoading] = useState(true);
@@ -18,11 +14,13 @@ function App() {
 
   return (
     <div>
-      {isLoading ? <Preloader /> : null}
-      <Header />
-      <Routes>
-        <Route path="/" element={<Homesection />} />
-      </Routes>
+      <Suspense fallback="loading">
+        {isLoading ? <Preloader /> : null}
+        <Header />
+        <Routes>
+          <Route path="/" element={<Homesection />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 }

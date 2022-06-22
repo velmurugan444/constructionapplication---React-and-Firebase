@@ -2,8 +2,10 @@ import React, { useRef, useState } from "react";
 import Footer from "./footer";
 import fire from "../files/firebase";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 
 const Contactform = () => {
+  const { t, i18n } = useTranslation("common");
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [mobile, setmobile] = useState("");
@@ -54,8 +56,12 @@ const Contactform = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h2>Do you have any questions?</h2>
-              <h2 className="second_heading">Feel free to contact us!</h2>
+              <h2>
+                {t(`home.question`)}
+              </h2>
+              <h2 className="second_heading">
+                {t(`home.contact`)}
+              </h2>
             </div>
             <form
               role="form"
@@ -71,7 +77,7 @@ const Contactform = () => {
                   onChange={e => setname(e.target.value)}
                   id="from_name"
                   name="from_name"
-                  placeholder="Name"
+                  placeholder={t(`home.name`)}
                 />
               </div>
               <div className="form-group">
@@ -92,7 +98,7 @@ const Contactform = () => {
                   className="form-control"
                   id="from_email"
                   name="from_email"
-                  placeholder="Email"
+                  placeholder={t(`home.email`)}
                 />
               </div>
               <div className="form-group">
@@ -103,7 +109,7 @@ const Contactform = () => {
                   className="form-control"
                   id="from_mobile"
                   name="from_mobile"
-                  placeholder="Mobile"
+                  placeholder={t(`home.mobile`)}
                 />
               </div>
 
@@ -115,11 +121,11 @@ const Contactform = () => {
                   onChange={e => setmessage(e.target.value)}
                   id="message"
                   name="message"
-                  placeholder="Message"
+                  placeholder={t(`home.message`)}
                 />
               </div>
               <button type="submit" className="btn submit_btn">
-                Submit
+                {t(`home.submit`)}
               </button>
             </form>
           </div>

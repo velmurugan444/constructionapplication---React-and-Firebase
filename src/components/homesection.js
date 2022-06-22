@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import About from "./about";
 import Contactform from "./contactform";
-import Footer from "./footer";
 import Portfolio from "./portfolio";
 import Services from "./services";
+import { useTranslation } from "react-i18next";
 
 const Homesection = () => {
+  const { t, i18n } = useTranslation("common");
   return (
     <div>
       <section id="home" className="home">
@@ -16,23 +17,23 @@ const Homesection = () => {
               <img src="images/slider_img.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified, Demolition Engineers</h3>
-                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h3>
+                    {t(`home.engineers`)}
+                  </h3>
+                  <h1>
+                    {t(`home.companyname`)}
+                  </h1>
                   <h1 className="second_heading">
-                    Wooden & RC Structure Demolition
+                    {t(`home.subheading`)}
                   </h1>
                   <p>
-                    sakura Kogyo Co., Ltd provides professional demolition
-                    services in the main three prefectures of Japan. our company
-                    is located in Kawaguchi city of Saitama prefecture. so we
-                    provide our services in Tokyo prefecture, Chiba prefecture
-                    and Saitama prefecture.
+                    {t(`home.content`)}
                   </p>
                   <Link to="/about" className="btn know_btn">
-                    About us
+                    {t(`home.knowmore`)}
                   </Link>
                   <Link to="/contact" className="btn know_btn">
-                    Contact us
+                    {t(`home.contactus`)}
                   </Link>
                 </div>
               </div>
@@ -41,20 +42,24 @@ const Homesection = () => {
               <img src="images/slider_img2.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified, Demolition Engineers</h3>
-                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h3>
+                    {t(`home.engineers`)}
+                  </h3>
+                  <h1>
+                    {t(`home.companyname`)}
+                  </h1>
                   <h1 className="second_heading">
-                    Wooden & RC Structure Demolition
+                    {t(`home.subheading`)}
                   </h1>
                   <p>
-                    sakura Kogyo Co., Ltd provides professional demolition
-                    services in the main three prefectures of Japan. our company
-                    is located in Kawaguchi city of Saitama prefecture. so we
-                    provide our services in Tokyo prefecture, Chiba prefecture
-                    and Saitama prefecture.
+                    {t(`home.content`)}
                   </p>
-                  <a className="btn know_btn">know more</a>
-                  <a className="btn know_btn">view project</a>
+                  <a className="btn know_btn">
+                    {" "}{t(`home.knowmore`)}
+                  </a>
+                  <a className="btn know_btn">
+                    {" "}{t(`home.contactus`)}
+                  </a>
                 </div>
               </div>
             </div>
@@ -62,20 +67,24 @@ const Homesection = () => {
               <img src="images/slider_img3.jpg" alt="Construction" />
               <div className="overlay">
                 <div className="carousel-caption">
-                  <h3>We are Certified, Demolition Engineers</h3>
-                  <h1>Sakura Kogyo Co., Ltd.</h1>
+                  <h3>
+                    {t(`home.engineers`)}
+                  </h3>
+                  <h1>
+                    {t(`home.companyname`)}
+                  </h1>
                   <h1 className="second_heading">
-                    {" "}Wooden & RC Structure Demolition
+                    {t(`home.subheading`)}
                   </h1>
                   <p>
-                    sakura Kogyo Co., Ltd provides professional demolition
-                    services in the main three prefectures of Japan. our company
-                    is located in Kawaguchi city of Saitama prefecture. so we
-                    provide our services in Tokyo prefecture, Chiba prefecture
-                    and Saitama prefecture.
+                    {t(`home.content`)}
                   </p>
-                  <a className="btn know_btn">know more</a>
-                  <a className="btn know_btn">view project</a>
+                  <a className="btn know_btn">
+                    {t(`home.knowmore`)}
+                  </a>
+                  <a className="btn know_btn">
+                    {t(`home.contactus`)}
+                  </a>
                 </div>
               </div>
             </div>

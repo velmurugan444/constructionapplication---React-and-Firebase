@@ -1,20 +1,21 @@
 import React, { useEffect } from "react";
 import $ from "jquery";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+  const { t, i18n } = useTranslation("common");
   useEffect(() => {
-    $(".videos").hide();
     $("#photo-filter").addClass("is-checked");
   }, []);
 
   return (
     <section id="portfolio">
       <div className="container portfolio_area text-center">
-        <h2>Made with love</h2>
+        <h2>
+          {t(`home.madewithlove`)}
+        </h2>
         <p>
-          These are some of the projects that we completed successfully. we
-          provide wooden and RC structure demolition services in Saitama, Tokyo
-          and Chiba Prefectures.
+          {t(`home.portfoliocontent`)}
         </p>
 
         <div id="filters">
@@ -24,25 +25,10 @@ const Portfolio = () => {
             data-filter="*"
             onClick={() => {
               $("#photo-filter").addClass("is-checked");
-              $("#video-filter").removeClass("is-checked");
               $(".photos").show();
-              $(".videos").hide();
             }}
           >
-            Photos
-          </button>
-          <button
-            className="button"
-            id="video-filter"
-            data-filter=".buildings"
-            onClick={() => {
-              $("#photo-filter").removeClass("is-checked");
-              $("#video-filter").addClass("is-checked");
-              $(".photos").hide();
-              $(".videos").show();
-            }}
-          >
-            Videos
+            {t(`home.photos`)}
           </button>
         </div>
 
@@ -97,18 +83,6 @@ const Portfolio = () => {
           </div>
           <div className="grid-item interior photos isolation">
             <img alt="" src="images/Home/home-3.JPG" />
-          </div>
-
-          <div className="grid-item videos isolation" style={{ width: "auto" }}>
-            <iframe
-              width="400"
-              height="240"
-              src="https://www.youtube.com/embed/EFmg2NV1XMA"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            />
           </div>
         </div>
       </div>
