@@ -785,7 +785,7 @@ footer::after {
         padding: 0 12px 0 0;
     }
     .list-inline.social_icon > li {
-        padding: 0 2px;
+        padding: 0 21px;
     }
     nav.navbar.bootsnav .navbar-header {
         padding: 0;
@@ -970,7 +970,7 @@ footer::after {
         padding: 8px 3px;
     }
     iframe{
-        width: auto;
+        width: -webkit-fill-available;
     }
     .logo{
         width: 82%;

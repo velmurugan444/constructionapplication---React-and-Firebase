@@ -19,28 +19,24 @@ const Footer = () => {
 
               <ul className="list-inline footer_social_icon">
                 <li>
-                  <a href="">
+                  <a href="https://www.facebook.com/people/Kyodai-Kyodai/100079036464086/">
                     <span className="fa fa-facebook" />
                   </a>
                 </li>
+                &nbsp;&nbsp;
                 <li>
-                  <a href="">
-                    <span className="fa fa-twitter" />
+                  <a href="https://wa.me/+917904435022/?text=">
+                    <span className="fa fa-whatsapp" />
                   </a>
                 </li>
+                &nbsp;
                 <li>
                   <a href="">
-                    <span className="fa fa-youtube" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <span className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <span className="fa fa-linkedin" />
+                    <span>
+                      <span>
+                        <img src="icons/circleline.png" />
+                      </span>
+                    </span>
                   </a>
                 </li>
               </ul>
@@ -60,15 +56,19 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@example.com"
+                    target="_blank"
+                  >
                     <span className="fa fa-envelope" /> saeidbabaalian@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="tel:+08032059543">
                     <span className="fa fa-mobile" />
                     <p>
-                      080-3205-9543 <br />048-234-8264
+                      <a href="tel:+08032059543">080-3205-9543</a> <br />
+                      <a href="tel:+0482348264">048-234-8264</a>
                     </p>
                   </a>
                 </li>
@@ -90,6 +90,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="footer_bottom text-center">
+        <p className="wow fadeInRight">
+          Made with
+          <i className="fa fa-heart" />
+          by
+          <a target="_blank" href="http://bootstrapthemes.co">
+            Bootstrap Themes
+          </a>
+          2016. All Rights Reserved
+        </p>
       </div>
     </footer>
   );

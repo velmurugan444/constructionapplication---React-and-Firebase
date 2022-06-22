@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
 const Header = () => {
   const { t, i18n } = useTranslation("common");
   return (
@@ -11,12 +10,15 @@ const Header = () => {
           <div className="container">
             <ul className="list-inline info">
               <li>
-                <a href="#">
+                <a href="tel:+08032059543">
                   <span className="fa fa-phone" /> 080-3205-9543
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@example.com"
+                  target="_blank"
+                >
                   <span className="fa fa-envelope" /> saeidbabaalian@gmail.com
                 </a>
               </li>
@@ -27,6 +29,7 @@ const Header = () => {
                     <input
                       type="radio"
                       value="English"
+                      name="language"
                       onClick={() => {
                         i18n.changeLanguage("en");
                       }}
@@ -38,6 +41,7 @@ const Header = () => {
                     <input
                       type="radio"
                       value="English"
+                      name="language"
                       onClick={() => {
                         i18n.changeLanguage("jap");
                       }}
@@ -49,23 +53,27 @@ const Header = () => {
             </ul>
             <ul className="list-inline social_icon">
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/people/Kyodai-Kyodai/100079036464086/">
                   <span className="fa fa-facebook" />
                 </a>
               </li>
+              &nbsp; &nbsp;
               <li>
-                <a href="">
+                <a href="https://wa.me/+917904435022/?text=">
                   <span className="fa fa-whatsapp" />
                 </a>
               </li>
+              &nbsp;&nbsp;
               <li>
                 <a href="">
-                  <span className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span className="fa fa-instagram" />
+                  <span>
+                    <img
+                      src="icons/line.png"
+                      style={{ width: "60%" }}
+                      alt="
+                    "
+                    />
+                  </span>
                 </a>
               </li>
             </ul>
