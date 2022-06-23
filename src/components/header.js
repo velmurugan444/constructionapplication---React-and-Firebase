@@ -53,19 +53,19 @@ const Header = () => {
             </ul>
             <ul className="list-inline social_icon">
               <li>
-                <a href="https://www.facebook.com/people/Kyodai-Kyodai/100079036464086/">
+                <a href="https://www.facebook.com/Kaitai-Sakura-kogyo-100114372761828/">
                   <span className="fa fa-facebook" />
                 </a>
               </li>
               &nbsp; &nbsp;
               <li>
-                <a href="https://wa.me/+917904435022/?text=">
+                <a href="https://wa.me/+818032059543/?text=">
                   <span className="fa fa-whatsapp" />
                 </a>
               </li>
               &nbsp;&nbsp;
               <li>
-                <a href="">
+                <a href="https://line.me/ti/p/qKoG3Qipto">
                   <span>
                     <img
                       src="icons/line.png"

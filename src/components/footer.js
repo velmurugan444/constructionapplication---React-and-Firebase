@@ -19,25 +19,40 @@ const Footer = () => {
 
               <ul className="list-inline footer_social_icon">
                 <li>
-                  <a href="https://www.facebook.com/people/Kyodai-Kyodai/100079036464086/">
+                  <a href="https://www.facebook.com/Kaitai-Sakura-kogyo-100114372761828/">
                     <span className="fa fa-facebook" />
                   </a>
                 </li>
                 &nbsp;&nbsp;
                 <li>
-                  <a href="https://wa.me/+917904435022/?text=">
+                  <a href="https://wa.me/+818032059543/?text=">
                     <span className="fa fa-whatsapp" />
                   </a>
                 </li>
                 &nbsp;
                 <li>
-                  <a href="">
+                  <a href="https://line.me/ti/p/qKoG3Qipto">
                     <span>
                       <span>
                         <img src="icons/circleline.png" />
                       </span>
                     </span>
                   </a>
+                </li>
+              </ul>
+              <ul
+                className="list-inline footer_social_icon"
+                style={{ display: "flex" }}
+              >
+                <li>
+                  <span>
+                    {" "}<img src="images/services/qr-1.jpeg" />
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <img src="images/services/qr-2.jpeg" />
+                  </span>
                 </li>
               </ul>
             </div>
@@ -93,13 +108,10 @@ const Footer = () => {
       </div>
       <div className="footer_bottom text-center">
         <p className="wow fadeInRight">
-          Made with
-          <i className="fa fa-heart" />
-          by
-          <a target="_blank" href="http://bootstrapthemes.co">
-            Bootstrap Themes
+          Copyright © 2022 Sakura Kogyo Co., Ltd Designed & Developed by &nbsp;
+          <a target="_blank" href="https://line.me/ti/p/tBIdA0fqD0">
+            Rabin khattri
           </a>
-          2016. All Rights Reserved
         </p>
       </div>
     </footer>
